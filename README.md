@@ -1,6 +1,10 @@
+tl;dr It does 24 API calls instead of 360, and fills in the other colors by incrementing the H in HSL by 1, until one of the checkpoint colors from the API response are reached. You can tell the checkpoints in the UI because those entries have more information about the colors, in different formats.
+
 # HSL Color Spectrum Grid
 
 A Vue 3 application that visualizes a spectrum of colors based on user-selected Saturation and Lightness values, using TheColorApi for color names at specific points and client-side generation for intermediary colors.
+
+
 
 ## Features
 
@@ -71,4 +75,4 @@ This project uses the `/id` endpoint of [TheColorApi](https://www.thecolorapi.co
 
 ---
 
-© 0xEVM1 - [2025]
+© 0xEVM1 - 2025
