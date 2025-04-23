@@ -31,7 +31,7 @@ This project requires Node.js and npm (or yarn/pnpm) installed on your machine.
 1.  **Clone the repository:**
     ```bash
     git clone HSL
-    cd hsl
+    cd HSL
     ```
 
 2.  **Install dependencies:**
