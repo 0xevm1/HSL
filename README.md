@@ -74,7 +74,7 @@ This project uses the `/id` endpoint of [TheColorApi](https://www.thecolorapi.co
 
 
 * **Enhance Intermediary Color Data:** Currently, client-generated colors only have HSL, Hex, and a copied name. More properties (like RGB string) could be generated client-side if needed.
-* **Add User Controls:** Implement sliders or input fields for Saturation and Lightness in `App.vue` (or a dedicated parent component) to allow user interaction.
+* **Add User Controls:** Implement input fields for Saturation and Lightness to complement the sliders in `App.vue` (or a dedicated parent component) to allow user interaction.
 
 ## Credits
 
