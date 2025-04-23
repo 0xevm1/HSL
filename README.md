@@ -4,6 +4,7 @@ tl;dr It does 24 API calls instead of 360, and fills in the other colors by incr
 
 A Vue 3 application that visualizes a spectrum of colors based on user-selected Saturation and Lightness values, using TheColorApi for color names at specific points and client-side generation for intermediary colors.
 
+![Screenshot of the HSL Color Spectrum Grid](https://github.com/0xevm1/HSL/blob/main/hsl-screenshot.png?raw=true)
 
 ## Features
 
