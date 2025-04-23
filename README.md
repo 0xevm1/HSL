@@ -5,7 +5,6 @@ tl;dr It does 24 API calls instead of 360, and fills in the other colors by incr
 A Vue 3 application that visualizes a spectrum of colors based on user-selected Saturation and Lightness values, using TheColorApi for color names at specific points and client-side generation for intermediary colors.
 
 
-
 ## Features
 
 * Displays a grid representing a range of hues (0-360) for a given Saturation (S) and Lightness (L).
@@ -14,6 +13,15 @@ A Vue 3 application that visualizes a spectrum of colors based on user-selected 
 * Assigns the name of the API-fetched color to the generated intermediary colors within the subsequent hue range, based on the assumption that names change directionally with hue.
 * Responsive grid layout using CSS Grid.
 * Includes basic loading and error handling indicators.
+
+
+## Design Choice summary
+Initially I wanted to separate concerns like a normal project to demonstrate how I would approach a larger project. In the end I retained the structure of a real modern Vue project but only partially separated concerns. `ColorSwatchGrid.vue` does most of everything. I planned on using Tailwinds for CSS more than I did, the UI became simple, and was not the focus of the assessment, but `ColorSwatch` is a simple card that gets reused.
+
+The use of Promises object directly - as opposed to abstracted by async/await commands - was important to keep the API responses in order and controllable.
+
+The constraints of the project guided the rest of the design.
+
 
 ## Setup
 
